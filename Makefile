@@ -28,7 +28,7 @@ featureB-test.c: featureB-test.check
 	/usr/local/bin/checkmk featureB-test.check > featureB-test.c
 
 testC: featureC-test.c featureC.c
-	gcc -o testC featureA.c featureA-test.c $(LIBS) -fprofile-arcs -ftest-coverage
+	gcc -o testC featureC.c featureC-test.c $(LIBS) -fprofile-arcs -ftest-coverage
 
 featureC-test.c: featureC-test.check
 	/usr/local/bin/checkmk featureC-test.check > featureC-test.c
@@ -44,4 +44,5 @@ doc:
 
 clean:
 	rm -f run
+	rm -f *test.c *.xml
 
