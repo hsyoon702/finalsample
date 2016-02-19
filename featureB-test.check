@@ -1,6 +1,6 @@
 #include "featureB.h"
 
-#test featureAtest
+#test featureBtest
         fail_unless(1 == 1, "trivial case");
 
 #main-pre
