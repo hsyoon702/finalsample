@@ -1,8 +1,8 @@
 #include "featureD.h"
 
 #test featureDtest
-        fail_unless(1 == 1, "trivial case");
-        fail_unless(2 == 6, "not correct test case");
+        fail_unless(feature_d(1, 2) == 2, "trivial case");
+        fail_unless(feature_d(3, 4) == 12, "not correct test case");
 
 #main-pre
 	srunner_set_xml(sr, "report_featureD.xml");

@@ -1,7 +1,7 @@
-/** @file
- *  @brief
- *  @author
- *  @bug
+/** @file featureD.c
+ *  @brief Multifly x and y
+ *  @author yunhongseog
+ *  @bug not bug searched
  */
 
 #include "featureD.h"
@@ -15,6 +15,8 @@
 
 int feature_d(int x, int y)
 {
-	return 0;
+	int result;
+	result = x*y;
+	return result;
 }
 
