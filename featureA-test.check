@@ -1,0 +1,4 @@
+#include "featureA.h"
+
+#main-pre
+	srunner_set_xml(sr, "report_featureA.xml");
