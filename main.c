@@ -18,7 +18,7 @@ int main()
 	printf("featureB: %d\n", b);
 	printf("featureC: %d\n", c);
 	printf("featureD: %d\n", d);
-
+dddddddddddddddddddddd
 	return 0;
 }
 
